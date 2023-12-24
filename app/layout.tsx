@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import BootstrapClient from "./bootstrabClient"; //
+import Footer from "./Components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -18,11 +19,14 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={inter.className}>
-                <div className="container-fluid">
-                    {children}
-                    <BootstrapClient />
+            <body>
+                <div className={inter.className} id="body">
+                    <div className="container-fluid">
+                        {children}
+                        <BootstrapClient />
+                    </div>
                 </div>
+                <Footer />
             </body>
         </html>
     );

@@ -23,7 +23,7 @@ const Archipartner = () => {
                     <Threeslider />
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };
