@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    background-color: #ffffff;
+}
+
+.social-icons i {
+    font-size: 30px;
+    margin: 0 15px;
+}

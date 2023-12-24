@@ -1,0 +1,180 @@
+$darkcolortext:#686868;
+$darkcolortext2:#242331;
+$darkcolortext3:#797979;
+$fontsize20:20px;
+$fontsize14:14px;
+$fontsize16:16px;
+$fontweight500:500;
+$fontweight400:400;
+$lineheight32:32px;
+  
+.captionSection2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .captionSectionleft{
+    color: $darkcolortext2 !important;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: $fontsize20;
+    font-weight: $fontweight500;
+    line-height: $lineheight32; 
+  }
+  .linkcaption{
+    text-decoration: none;
+    color: $darkcolortext2 !important;
+    font-size: $fontsize20;
+    font-weight: $fontweight500;
+    line-height: $lineheight32; 
+  }
+  .captionSectionright{
+    margin-right: 20%;
+    color: $darkcolortext;
+    font-size: $fontsize20;
+    font-weight: $fontweight500;
+  }
+  .captionSectionright2{
+    color: $darkcolortext;
+    font-size: $fontsize20;
+    font-weight: $fontweight500;
+    // margin-top: 40px !important;
+    margin-bottom:24px !important;
+  }
+  .spansec2{
+    margin-left: 14px;
+    font-size: $fontsize14;
+    font-weight: $fontweight400;
+    line-height: normal;
+    color: $darkcolortext3;
+  }
+  .imgsectiontwo{
+    margin-top: 19px;
+  }
+  
+  .imgsectiontwo2img{
+    margin-bottom: 20px !important;
+  }
+  .listImg{
+    margin-top: 16px;
+  }
+  .listImg .t{
+    margin-left: 14px;
+  }
+  .captionAll{
+    justify-content: center;
+    align-items: center;
+  }
+  .captionAll p{
+    text-align: center;
+  }
+  .sectionthreeh6{
+    margin-top: 28px;
+    margin-bottom: 28px !important;
+    color: $darkcolortext3;
+  }
+  .upbtn{
+    margin-top: 43px !important;
+  }
+  .hoverr{
+    border-radius: 20px !important;
+    background: #77BEE8 !important;
+    box-shadow: 0px 4px 32px 0px rgba(119, 190, 232, 0.32);
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .hoverr2{
+    border-radius: 20px !important;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #797979 !important;
+    font-weight: 500;
+    margin-left: 250px;
+  }
+  .sliderphoto{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(18, 20, 20, 0.63);
+    opacity: 1;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .RoofingSolutions{
+    margin-top: 45px;
+    margin-bottom: 15px;
+    color: $darkcolortext2;
+    font-weight: $fontweight400;
+    font-size: $fontsize20;
+  }
+
+  .linksDescriptionaskkarr{
+    color: #7195BE;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  /*media query*/
+@media screen and (max-width:568px){
+  /*Start section 1*/
+ .listImg{
+  width: 100%;
+ }
+ .listImg .t{
+  margin-left: 4px;
+}
+
+.captionAll1{
+  // justify-content: start;
+  // align-items: center;
+  // margin: auto;
+  height: 200px;
+}
+
+.captionAll2{
+  // justify-content: start;
+  // align-items: center;
+  margin-left: 5px;
+  height: 200px;
+}
+.captionAll1 p{
+  text-align: center;
+  font-size: 14px;
+}
+.captionAll1 svg{
+  font-size: 14px;
+ display: flex;
+}
+.captionAll2 p{
+  text-align: center;
+  font-size: 14px;
+}
+ .hoverr{
+    border-radius: 20px !important;
+    background: #77BEE8 !important;
+    box-shadow: 0px 4px 32px 0px rgba(119, 190, 232, 0.32);
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .hoverr2{
+    margin-left: 5px;
+    border-radius: 20px !important;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #797979 !important;
+    font-weight: 500;
+  }
+}

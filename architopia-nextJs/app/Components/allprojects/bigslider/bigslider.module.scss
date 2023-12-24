@@ -1,0 +1,41 @@
+.button{
+    border-radius: 10px;
+    background: #E6E6E6;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #242331;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+.button:hover{
+    border-radius: 10px;
+    background: #E6E6E6;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #242331;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+}
+.h6{
+    color: #242331;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    width: 348px;
+    margin-bottom: 19px;
+    text-decoration: none;
+}

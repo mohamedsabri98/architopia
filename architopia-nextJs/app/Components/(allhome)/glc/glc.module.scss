@@ -1,0 +1,19 @@
+.glcSlider{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 1;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    background: rgba(36, 35, 49, 0.75) !important;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }

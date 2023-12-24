@@ -1,0 +1,46 @@
+$darkcolortext:#686868;
+$darkcolortext2:#242331;
+$darkcolortext3:#797979;
+$fontsize20:20px;
+$fontsize14:14px;
+$fontsize16:16px;
+$fontweight500:500;
+$fontweight400:400;
+$lineheight32:32px;
+
+.captionSectionright2{
+    color: $darkcolortext;
+    font-size: $fontsize20;
+    font-weight: $fontweight500;
+    margin-bottom:24px !important;
+    margin-top: 40px;
+  }
+  .cart{
+    border: 1px solid #E6E6E6;
+    margin-bottom: 22px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .carth5{
+    color: #242331;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width:568px){
+    /*Start section 1*/
+    .carth5{
+      font-size: 14px !important;
+   
+    }
+    .cart{
+      border: 1px solid #E6E6E6;
+      margin-bottom: 25px;
+      padding: 10px !important;
+      border-radius: 10px;
+    }
+
+  }

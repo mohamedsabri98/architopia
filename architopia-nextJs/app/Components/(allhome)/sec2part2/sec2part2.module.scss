@@ -1,0 +1,49 @@
+$darkcolortext:#686868;
+$darkcolortext2:#242331;
+$darkcolortext3:#797979;
+$fontsize20:20px;
+$fontsize14:14px;
+$fontsize16:16px;
+$fontweight500:500;
+$fontweight400:400;
+$lineheight32:32px;
+
+.imgsectiontwo2img{
+    margin-bottom: 10px !important;
+  }
+  .UptextPosition {
+    position: relative;
+  }
+  
+  .textPosition2 {
+    position: absolute;
+    width: 150px;
+    height: 33px;
+    bottom: 1px;
+    left: 12px;
+    right: 10px;
+    background: rgba(36, 35, 49, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .captionSectionright{
+    color: #686868 !important;
+    font-size: $fontsize20;
+    font-weight: $fontweight500;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+    /*media query*/
+@media screen and (max-width:568px){
+  /*Start section 1*/
+
+  .textPosition2 {
+    
+    margin: auto;
+  
+  }
+
+}
