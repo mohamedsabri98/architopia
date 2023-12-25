@@ -1,28 +1,29 @@
-$maincolor:#77BEE8;
-$lightcolor:#fff;
-$darkcolor:#797979;
-$bgmain:#77BEE8;
+$maincolor: #77bee8;
+$lightcolor: #fff;
+$darkcolor: #797979;
+$bgmain: #77bee8;
+$darkcolortext: #686868;
+$darkcolortext2: #242331;
+$darkcolortext3: #797979;
 
-$darkcolortext:#686868;
-$darkcolortext2:#242331;
-$darkcolortext3:#797979;
-$fontsize20:20px;
-$fontsize14:14px;
-$fontsize16:16px;
-$fontweight500:500;
-$fontweight600:600;
-$fontweight400:400;
-$lineheight32:32px;
+$fontsize20: 20px;
+$fontsize14: 14px;
+$fontsize16: 16px;
+$fontweight500: 500;
+$fontweight600: 600;
+$fontweight400: 400;
 
-.navHome a{
+$lineheight32: 32px;
+
+.navHome a {
     color: $maincolor !important;
     font-weight: 400 !important;
     text-decoration: underline;
 }
-.navHomeout:hover a{
+.navHomeout:hover a {
     color: $maincolor;
 }
-.navbarr{
+.navbarr {
     text-align: center;
     color: #242331 !important;
     font-size: 16px !important;
@@ -30,12 +31,11 @@ $lineheight32:32px;
     font-weight: 400 !important;
     line-height: normal;
 }
-.editnav{
+.editnav {
     align-items: center;
     margin-left: 10px;
-    
 }
-.editnav2{
+.editnav2 {
     align-items: center;
     justify-content: space-between;
     width: 280px;
@@ -44,54 +44,56 @@ $lineheight32:32px;
     padding-left: 30px;
     align-items: center;
 }
-.navspan{
+.navspan {
     color: $darkcolortext2 !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400 !important;
     margin-left: 2px;
 }
-.padingicon{
+.padingicon {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.button1{
+.button1 {
     color: $darkcolor !important;
     font-size: $fontsize16 !important;
     font-style: normal;
     font-weight: $fontweight500 !important;
     line-height: normal;
 }
-.button1:hover{
-   border-bottom: 1px solid $maincolor !important;   
+.button1:hover {
+    border-bottom: 1px solid $maincolor !important;
 }
-.button2{
+.button2 {
     display: inline-flex;
     padding: 10px 24px !important ;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 16px !important;
-    background: #77BEE8 !important;
+    background: #77bee8 !important;
     box-shadow: 0px 4px 32px 0px rgba(119, 190, 232, 0.32);
-    color: #FFF !important;
+    color: #fff !important;
     font-size: $fontsize16 !important;
     font-style: normal;
     font-weight: $fontweight600 !important;
     line-height: normal;
 }
+.navbar-nav .nav-item .nav-link.active {
+    background-color: #007bff; /* Choose your desired background color */
+    color: #ffffff; /* Choose your desired text color */
+  }
 
-
-// ////////////////
 /*media query*/
-@media screen and (max-width:568px){
+@media screen and (max-width: 568px) {
     /*Start section 1*/
-    .logonav img{
+    .logonav img {
         margin-left: 5px;
     }
-    .upNavbar{
+    .upNavbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -101,11 +103,7 @@ $lineheight32:32px;
         padding-bottom: 15px;
         align-items: center;
     }
-    .editnav2 li{
+    .editnav2 li {
         padding-bottom: 15px;
     }
-  }
-
-    
-  
-
+}

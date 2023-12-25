@@ -6,8 +6,6 @@ import Bigslider from "../Components/allproducts/bigslider/bigslider";
 import Twoslider from "../Components/allproducts/two slider/twoslider";
 import Threeslider from "../Components/allproducts/threeslider/threeslider";
 import MainSlider from "../Components/allproducts/MainSlider/MainSlider";
-// import Navbar3 from '../Components/allproducts/navbar3/navbar3';
-
 const Products = () => {
     return (
         <>

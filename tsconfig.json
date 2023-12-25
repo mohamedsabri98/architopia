@@ -18,6 +18,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "app/Components/allproducts/navbar2/navbar2.tsx"],
   "exclude": ["node_modules"]
 }

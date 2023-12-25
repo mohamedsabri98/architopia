@@ -6,15 +6,26 @@
     width: 120px;
     height: 120px;
 }
-h6,h5{
-    font-weight: bold;
+
+.text-gray {
+    color: #686868;
 }
-p{
-    color: #aca9a9;
+.p-color {
+    color: #242331;
 }
-a{
+.button-edit {
+    display: inline-flex;
+    height: 36px;
+    padding: 8px 24px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #e6e6e6;
+    background-color: #ffff;
+}
+a {
     text-decoration: none;
 }
-span{
+span {
     font-size: 13px;
 }
+

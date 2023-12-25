@@ -11,10 +11,7 @@ const Archipartner = () => {
         <>
             <Navbar2 />
             <div className="container mt-5">
-                <div className="d-flex">
-                    <Profile />
-                    <Bigslider />
-                </div>
+                <Profile />
                 <div className="row">
                     <Threeslider />
                 </div>

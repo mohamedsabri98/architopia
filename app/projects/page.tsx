@@ -1,9 +1,6 @@
 import React from "react";
 import style from "./page.module.scss";
 import Link from "next/link";
-import Image from "next/image";
-import img2 from "../../public/assets/Rectangle 32.png";
-import img3 from "../../public/assets/Rectangle 31.png";
 import Bigslider from "../Components/allprojects/bigslider/bigslider";
 import Twoslider from "../Components/allprojects/two slider/twoslider";
 import Threeslider from "../Components/allprojects/threeslider/threeslider";
