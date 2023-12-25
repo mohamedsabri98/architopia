@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar2 from "../Components/allproducts/navbar2/navbar2";
-import Bigslider from "../Components/allprojects/bigslider/bigslider";
 import Threeslider from "../Components/allprojects/threeslider/threeslider";
 import MainSlider from "../Components/allprojects/MainSlider/MainSlider";
 import Footer from "../Components/Footer/Footer";

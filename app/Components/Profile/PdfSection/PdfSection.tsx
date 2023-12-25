@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import "./PdfSection.css"
 
 function PdfSection(props) {
     return (
@@ -8,7 +9,7 @@ function PdfSection(props) {
                 <div className="mt-3">
                     <Image src={props.photo} alt="logo" width={30} height={30} />
                 </div>
-                <div className="mt-2 ms-4">
+                <div className="mt-2 ms-4 info">
                     <span>
                         dar certificate <br /> 2.5M | pdf
                     </span>
@@ -24,7 +25,7 @@ function PdfSection(props) {
                             />
                         </div>
                         <div className="mt-1 ms-2">
-                            <a href="#">Download</a>
+                            <a className="link-download" href="#">Download</a>
                         </div>
                     </div>
                 </div>

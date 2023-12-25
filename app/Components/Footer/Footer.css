@@ -12,13 +12,30 @@
     border-radius: 50%;
 }
 
-.image:hover{
+.image:hover {
     background-color: #fff;
     border-radius: 8px;
 }
 .circle-container:hover {
-    background-color: #77BEE8;
-} 
+    background-color: #77bee8;
+}
+.icons{
+    margin-top: 25px;
+    padding-top: 25px;
+}
 
-
-
+@media only screen and (max-width: 768px) {
+    .footer {
+        position:absolute;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone-number h6 {
+        position: relative;
+        width: 200%;
+    }
+    .icons{
+        margin-top: 0;
+        padding-top: 0;
+    }
+}

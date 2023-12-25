@@ -10,7 +10,6 @@ import circle from "../../../public/assets/icons/Ellipse 61.svg";
 import footerLogo from "../../../public/assets/logo/Group 23.png";
 import FooterSocialIcons from "./FooterSocialIcons/FooterSocialIcons";
 
-
 function Footer() {
     return (
         <>
@@ -38,12 +37,14 @@ function Footer() {
                                     width={30}
                                     height={30}
                                 />
-                                <h6 className="ms-4 mt-2">
-                                    00201001560037 - 00201010037139
-                                </h6>
+                                <div className="phone-number">
+                                    <h6 className="ms-4 mt-2">
+                                        00201001560037 - 00201010037139
+                                    </h6>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-7 mt-5 pt-5 d-flex justify-content-end">
+                        <div className=" icons col-7 d-flex justify-content-end">
                             <FooterSocialIcons image={facebook} />
                             <FooterSocialIcons image={linkedin} />
                             <FooterSocialIcons image={instagram} />
